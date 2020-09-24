@@ -38,4 +38,17 @@ class Computer
 end
 
 
+class Fruit
+    def color
+      "orange"
+    end
+end
+
+
+class Orange < Fruit
+    def color
+      :orange
+    end
+end
+
 
